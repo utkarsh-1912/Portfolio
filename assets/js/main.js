@@ -71,8 +71,8 @@ function sendMail() {
     //     });
     var link = "mailto:utkrist.random.1912@gmail.com"
              + "?cc="+document.getElementById('email').value
-             + "&subject=" + encodeURIComponent("This is my subject")
-             + "&body=" + encodeURIComponent("Name : "+document.getElementById('name').value+"    Message"+document.getElementById('text').value)
+             + "&subject=" + encodeURIComponent("Message from Website")
+             + "&body=" + encodeURIComponent("Name : "+document.getElementById('name').value+"    Message : "+document.getElementById('text').value)
     ;
     
     window.location.href = link;
